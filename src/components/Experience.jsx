@@ -1,4 +1,6 @@
 import { OrbitControls } from "@react-three/drei";
+import Robot from "./Robot";
+import { Toy } from "./Toy";
 
 export const Experience = () => {
   return (
@@ -8,6 +10,7 @@ export const Experience = () => {
         <boxGeometry />
         <meshNormalMaterial />
       </mesh>
+      <Robot />
     </>
   );
 };
